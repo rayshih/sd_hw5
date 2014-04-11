@@ -1,5 +1,5 @@
-package hw04.component;
-import hw04.Size;
+package hw5_1.component;
+import hw5_1.Size;
 
 public abstract class Component {
 	private Size naturalSize;

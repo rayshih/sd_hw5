@@ -1,9 +1,9 @@
-package hw04;
+package hw5_1;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import hw04.component.Component;
-import hw04.linebreak_strategy.Strategy;
+import hw5_1.component.Component;
+import hw5_1.linebreak_strategy.Strategy;
 
 public class Composition {
 	private ArrayList<Component> elements = new ArrayList<Component>();

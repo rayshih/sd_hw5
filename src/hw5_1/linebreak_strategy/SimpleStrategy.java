@@ -1,8 +1,8 @@
-package hw04.linebreak_strategy;
+package hw5_1.linebreak_strategy;
 import java.util.ArrayList;
 import java.util.Iterator;
-import hw04.component.Component;
-import hw04.Layout;
+import hw5_1.component.Component;
+import hw5_1.Layout;
 
 public class SimpleStrategy implements Strategy {
 	public void arrange(ArrayList<Component> elements, Layout layout){
