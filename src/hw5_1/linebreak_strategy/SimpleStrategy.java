@@ -11,7 +11,7 @@ public class SimpleStrategy implements Strategy {
 
 		while (it.hasNext()) {
 			Component element = it.next();
-			if (this.shouldBreakline(elementsOfLine, element, layout)) {
+			if (!this.shouldBreakline(elementsOfLine, element, layout)) {
 				elementsOfLine.add(element);
 			} else {
 				// TODO handle breakline
